@@ -1,0 +1,135 @@
+ @font-face{
+	src:url("./food.ttf");
+	font-family:food;
+					}
+
+
+.box{
+	background-color:orange;
+	height:500px;
+	width:600px;
+	border:10px solid black;
+	float:left;
+	margin:10px;
+	color:white;
+	padding:10px;
+	border-radius:20px;
+		        }
+
+h1{	font-family:food;
+	background-color:beige;
+	font-size:4rem;	
+	color:maroon;
+
+				}
+
+h2{
+	font-family:food;	
+	font-size:2rem;
+	background-color:grey;
+	margin:2px;
+	margin-right:400px;
+	padding-left:10px;
+	border:5px inset red;
+	border-radius:10px;
+				}
+
+.box1{
+	background-image:url("./pizza.jpg");
+	background-size:cover;
+	background-repeat:no-repeat;
+	font-size:3rem;
+	padding-top:290px;
+	padding-left:400px;
+					}
+
+.box2{	
+	background-image:url("./BURGER.jpg");
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-position:center;
+	font-size:3rem;
+	padding-top:340px;
+	padding-left:150px;
+					}
+
+
+.box3{
+	background-image:url("./sandwich.jpg");
+	background-size:cover;
+	background-repeat:no-repeat;
+	font-size:3rem;
+	padding-top:350px;
+	padding-left:150px;
+					}
+												
+.box4{
+	background-image:url("./bread.jpg");
+	background-size:cover;
+	background-repeat:no-repeat;
+	font-size:3rem;
+	padding-top:280px;
+	padding-left:100px;
+
+					}
+
+
+.list{
+
+	list-style-image:url("./foodicon.png");
+	font-size:1.7rem;
+	font-family:food;
+	color:orange;
+	font-weight:bold;
+						}
+
+
+
+
+.foot{
+
+	text-align:center;
+	font-size:2rem;
+	color:orange;
+
+                                 }
+.foot:hover{
+	color: green;
+}
+
+
+
+.box5{
+	
+	height:40px;
+	width:150px;
+	background-image:url("./burger.jpg");		
+	font-size:1.5rem;
+	padding-top:15px;
+	text-align:center;
+	color:green;
+	position:sticky;
+	left:1200px;
+	bottom:500px;
+	border:5px outset red;
+	border-radius:30px;
+	font-family:food;			
+	
+					}
+
+
+ a{
+text-decoration:none;
+}
+
+.list ul li a:hover{	color:green;	}
+
+.list ul li a:active{	color:blue;	}
+
+.list ul li a:visited{color:maroon 	}
+
+
+
+
+
+		
